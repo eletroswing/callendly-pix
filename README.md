@@ -1,33 +1,34 @@
-# `Turborepo` Vite starter
+# callendly-pix
+callendly porém ultiliza de pix para marcar as reuniões
 
-This is an official starter Turborepo.
+A ideia é que pessoas possam marcar reuniões ou consultas usando pix como forma de pagamento. Ideal para mentorias e pacientes.
 
-## Using this example
+# MVP
+O ideal para um mvp seria:
 
-Run the following command:
+## Para quem é o owner[dono] de um callendly
+[ ] definir horarios disponiveis
+[ ] ver horarios disponiveis
+[ ] ver a agenda
+[ ] editar a agenda
+[ ] cancelar(e extornar) algo marcado
+[ ] receber updates no whatsapp ou email
 
-```sh
-npx create-turbo@latest -e with-vite
-```
+## para quem é o client[cliente] de um callendly
+[ ] ver os horarios de um owner
+[ ] marcar um horario
+[ ] ser capaz de pagar o horario sem perder o lugar
+[ ] poder cancelar um horario
+[ ] poder remarcar um horario
+[ ] receber atualizações no whatsapp ou email
 
-## What's inside?
 
-This Turborepo includes the following packages and apps:
+## legais mas nao necessario
+[ ] um chat entre o owner e o client
 
-### Apps and Packages
-
-- `docs`: a vanilla [vite](https://vitejs.dev) ts app
-- `web`: another vanilla [vite](https://vitejs.dev) ts app
-- `@repo/ui`: a stub component & utility library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
-
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+# Stack
+Usar venombot ou whatsapp web js para a conexão com whataspp
+react para o front
+node para o back
+mongo como banco de dados
+redis para caching de informações 
