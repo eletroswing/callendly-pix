@@ -32,3 +32,5 @@ react para o front
 node para o back
 mongo como banco de dados
 redis para caching de informações 
+Login com email e senha
+Login com Google e integrar com a agenda
